@@ -6,5 +6,6 @@ spring:
     driver-class-name: com.jdbc.mysql.Driver
   jpa:
     hibernate:
+      ddl-auto: create
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
